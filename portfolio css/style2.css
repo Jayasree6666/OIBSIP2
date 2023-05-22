@@ -1,0 +1,234 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    width:100%;
+    height:100vh;
+   background-image: url('./jaya.jpg');
+  background-position: center;
+  background-size: cover;
+}
+nav{
+    width: 100%;
+    height:20vh;
+    color:white;
+    justify-content:space-between;
+    display: flex;
+    align-items: center;
+    padding-bottom: 45px;
+}
+
+nav .logo{
+    width: 25%;
+    text-align: center;
+    font-size: 2.5em;
+}
+nav .logo span{
+    color:rgb(241, 141, 11);
+}
+nav .menu{
+    width:50%;
+    justify-content: space-around;
+    display: flex;
+    font-size: 25px;
+    margin: 10px 20px;
+}
+nav .menu a{
+text-decoration: none;
+color: white;
+justify-content: space-around;
+display: flex;
+font-size: 30px;
+
+}
+
+ .menu a:hover{
+    color:rgb(232, 146, 9);
+}
+main{
+    font-size: 40px;
+  color: white;
+   margin-top: 15%;
+  margin-bottom: 5%;
+  margin-left: 10%;
+}
+main h1 span{
+    color:rgb(232, 146, 9);
+    font-size: 80px;
+}
+
+main p{
+    font-size: 20px;
+    font-weight:lighter;
+}
+
+.about{
+    width: 100%;
+    height: 100vh;
+    padding: 100px 0px;
+    background: rgb(41, 39, 39);
+    justify-content: space-between;
+}
+.about img{
+    width:350px;
+    height: 450px;
+}
+.about-text{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+ .main {
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+ }
+
+ .text h2{
+    font-size:75px;
+    margin-bottom: 5px;
+    align-items: center;
+    padding-left: 50px;
+ }
+ .text p{
+    font-size: 20px;
+    letter-spacing: 1px;
+padding-left: 50px;
+ }
+ .text span{
+    color:rgb(241, 141, 11); 
+ }
+
+.skills {
+    width:100%;
+    height:100vh;
+    background:rgb(26, 25, 25);
+padding: 100px,opx;
+}
+.container h1{
+  font-size: 50px;
+  color:white;
+  align-items: center;
+    display: flex;
+  justify-content: space-around;
+padding-bottom: 30px;
+padding-top: 30px;
+}
+.image img{
+    justify-content:space-around;
+    align-items: center;
+ padding: 30px 30px;
+ align-content: center;
+ display: flex;
+ 
+}
+
+.contact{
+    width: 100%;
+    height: 100vh;
+    font-family:' poppins';
+    background:rgb(51, 51, 51);
+    align-items: center;
+}
+.heading h1{
+ align-items: center;
+ display: flex;
+ justify-content: space-around;
+ font-size: 70px;
+ padding:20px 20px;
+ color: white;
+}
+.form{
+    display: flex;
+   justify-content:space-around;
+   padding: 50px 50px;
+   color: black;
+ height:auto;
+
+}
+.box{
+    background: rgb(245, 164, 72);
+    width:450px;
+    height:450px;
+    padding:60px 40px;
+    font-size: 25px;
+    box-shadow: 8px 8px 15px -1px rgba(253, 232, 232, 0.921),-6px -8px -8px -1px rgba(255,255,255,0.7);
+}
+.td{
+    width:50px;
+}
+.txt{
+    height:27px;
+    width:200px;
+    border:none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.mail{
+    height: 27px;
+   width:200px;
+    border:none;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.pswd{
+    height:27px;
+    width:200px;
+     border:none;
+     margin-top: 10px;
+    margin-bottom: 15px;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    padding-block: 20px;
+    padding:10px 10px;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+   padding-block: 20px;
+padding: 10px 10px;
+margin-bottom: 15px;
+}
+.container a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+.container a:hover{
+    color:white;
+}
+button{
+    width:60px;
+    height:25px;
+    font-size: 15px;
+    border: none;
+    border-radius:25px;
+}
+button:hover{
+color: rgb(240, 105, 20);
+}
+.media{
+    display: flex;
+    justify-content:center;
+    font-size: 30px;
+}
+.media a{
+    text-decoration: none;
+}
+.media i{
+    display:flex;
+    justify-content:center;
+    height:100px;
+    width:80px;
+    align-items: center;
+    color:black;
+}
+.media i:hover{
+    color:white;
+}
